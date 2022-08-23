@@ -6,6 +6,14 @@
 trigger:
 - main
 
+# specific tag
+trigger:
+  tags:
+    include:
+    - v1.*
+    exclude:
+    - v2.0
+    
 pool:
   vmImage: 'windows-latest'
 
