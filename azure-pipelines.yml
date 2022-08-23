@@ -7,7 +7,6 @@ trigger:
 - main
 
 # specific tag
-trigger:
   tags:
     include:
     - v1.*
