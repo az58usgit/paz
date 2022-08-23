@@ -7,5 +7,5 @@ title: The Hello World Page
 
 <h1>{{ "Hello World!" | downcase }}</h1>
 
-{% include cookie-warning.html %}
+{% include Hello World.html %}
 
